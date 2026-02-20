@@ -28,3 +28,36 @@ This system is:
 ---
 
 ## 📦 File Structure
+---
+
+## 🛠 Requirements
+
+- Python 3.10+
+- FastAPI
+- SQLAlchemy
+- PostgreSQL (or managed cloud DB)
+- Render account
+- Telegram Bot
+
+---
+
+## 🚀 Setup Instructions
+
+### 1. Telegram Setup
+
+1. Open Telegram → Search `@BotFather`
+2. `/newbot` → Create bot → Copy token
+3. Send a message to the bot
+4. Fetch your chat ID:
+5. Save:
+- `TELEGRAM_BOT_TOKEN`
+- `TELEGRAM_CHAT_ID`
+
+---
+
+### 2. Local Testing (Optional)
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
